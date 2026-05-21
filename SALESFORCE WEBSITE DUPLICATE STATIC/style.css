@@ -1,0 +1,188 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+
+html,body{
+   width:100%;
+   height:100%;
+}
+
+#main{
+   width:100%;
+   height:100%;
+   background-color: rgb(163, 239, 239);
+ 
+}
+
+#header{
+    height:13vh ; /*vh matlab pura screen ka 10% irrespective of the parent */
+    width:100%;
+    background-color: rgb(127, 115, 173);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texts{
+    color: rgb(31, 3, 76);
+    background-color: antiquewhite;
+    padding: 10px;
+   
+    display: flex;
+}
+
+.texts:hover{
+    background-color: lightblue;
+}
+#contactDetails{
+    
+    font-weight: lighter;
+}
+
+.icon{
+  
+   padding: 10px;
+   border-radius: 50%;
+
+}
+.icon:hover{
+     background-color:aquamarine;
+}
+#login{
+    
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding:10px;
+    border-radius: 50px;
+    
+}
+#login:hover{
+background-color: aquamarine;
+}
+
+
+#try{
+    color:white;
+   background-color: green;
+   padding: 10px 20px;
+}
+
+#try:hover{
+    background-color:rgb(11, 48, 11) ;
+}
+#logo img{
+  
+   padding: 10px;
+}
+#fakeHeader{
+    height:13vh ; /*vh matlab pura screen ka 10% irrespective of the parent */
+    width:100%;
+    background-color: rgb(91, 91, 182);
+    
+
+}
+
+
+#page1{
+    height: 87vh;
+    width: 100%;
+    background-color: rgb(236, 196, 143);
+}
+
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(3, 3, 114);
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#strip u{
+    margin-left: 20px;
+}
+
+#content{
+    width: 100%;
+    height: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#box1{
+    height: 90%;
+    width: 47%;
+    background-color: rgb(216, 229, 202);
+    
+}
+#box1 h1{
+    color: rgb(2, 2, 56);
+    font-size: 50px;
+    margin: 30px 10px;
+
+}
+#box1 p{
+    color: rgb(2, 2, 56);
+    font-size: x-large;
+    margin:  30px 10px;
+}
+#box2{
+    height: 90%;
+    width: 47%;
+   border-radius: 15px;
+   overflow: hidden;
+    background-color: transparent;
+}
+#box2 img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+#btns{
+    display: flex;
+}
+#btn1{
+    text-align: center;
+    margin: 10px;
+    width: fit-content;
+    font-weight: 600px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(33, 127, 158);
+    border-radius: 5px;
+}
+
+#btn1:hover{
+    background-color: rgb(3, 3, 65);
+}
+
+#btn2{
+    text-align: center;
+    margin: 10px;
+    width: fit-content;
+    font-weight: 600px;
+    padding: 10px 20px;
+    color: lightblue;
+    border: 1px solid rgb(53, 129, 154);
+    border-radius: 5px;
+}
+#btn2:hover{
+    background-color: aliceblue;
+    color: rgb(2, 2, 65);
+    border-color: rgb(1, 1, 55);
+}
+#tagline{
+    width: 100%;
+    height: 16%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(3, 3, 97);
+}
+
